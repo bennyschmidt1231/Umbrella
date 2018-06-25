@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import {Text, View, ActivityIndicator, StyleSheet, Linking, TouchableOpacity, Image, Alert} from 'react-native';
+import {Text, View, StyleSheet, Linking, TouchableOpacity, Image, Alert} from 'react-native';
 import DateTimePicker from 'react-native-modal-datetime-picker';
 import {MenuProvider} from 'react-native-popup-menu';
-import LocationServicesDialogBox from "react-native-android-location-services-dialog-box";
 
 
 export default class Umbrella extends Component {
@@ -19,8 +18,10 @@ export default class Umbrella extends Component {
             isDateTimePickerVisible: false,
             mode: 'time',
             currentTime: null,
-            notificationDays: [],
-            maximum: undefined
+            precipPercentageDays: [],
+            notifications: {},
+            today: undefined,
+
         };
     }
 
@@ -29,8 +30,12 @@ export default class Umbrella extends Component {
     _hideDateTimePicker = () => this.setState({isDateTimePickerVisible: false});
 
     _handleDatePicked = (date) => {
-        console.log('A date has been picked: ', date);
-        console.log(date.getTime());
+        this.state.notifications = {};
+        let day = 0;
+        if(date < new Date()) day = 1;
+        for(day; day < 8; day++) {
+            this.state.notifications[new Date(date.getTime() + (60 * 60 * 24 * 1000 * day))] = this.state.precipPercentageDays[day];
+        }
         this._hideDateTimePicker();
     };
 
@@ -56,8 +61,17 @@ export default class Umbrella extends Component {
                         this.checkForRain(responseJson);
                     })
                     .catch((error) => {
-                        //no internet connection
-                        console.error(error);
+                        this.setState({error: error.message});
+                        // Works on both iOS and Android
+                        Alert.alert(
+                            'No Internet Connection',
+                            'Turn on WiFi or Mobile Data in Settings to allow umbrella to work its magic',
+                            [
+                                {text: 'Settings', onPress: () => Linking.openURL('app-settings:')},
+                                {text: 'OK', onPress: () => console.log('OK Pressed')},
+                            ],
+                            { cancelable: false }
+                        )
                     });
             },
             (error) => {
@@ -65,7 +79,7 @@ export default class Umbrella extends Component {
                 // Works on both iOS and Android
                 Alert.alert(
                     'Location Services Off',
-                    'Turn on Location Services in Settings > Privacy to allow umbrella? to determine your current location',
+                    'Turn on Location Services in Settings to allow umbrella to determine your current location',
                     [
                         {text: 'Settings', onPress: () => Linking.openURL('app-settings:')},
                         {text: 'OK', onPress: () => console.log('OK Pressed')},
@@ -73,27 +87,30 @@ export default class Umbrella extends Component {
                     { cancelable: false }
                 )
             },
-            {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000},
+            {enableHighAccuracy: true, timeout: 20000, todayAge: 1000},
         );
     }
 
     checkForRain(daily) {
         let weatherData = daily.daily.data;
-        let maximum = weatherData[0].precipProbability;
-        this.setState({maximum: maximum});
-        if (maximum < 0.05) {
+        let today = weatherData[0].precipProbability;
+        for(let index in weatherData) {
+            this.state.precipPercentageDays.push(this.getMessage(weatherData[index].precipProbability));
+        }
+        this.setState({today: today});
+        if (today < 0.05) {
             this.setState({
                 needUmbrella: 'nope.'
             });
-        } else if (maximum < 0.25) {
+        } else if (today < 0.35) {
             this.setState({
                 needUmbrella: 'probably not.'
             });
-        } else if (maximum < 0.55) {
+        } else if (today < 0.55) {
             this.setState({
                 needUmbrella: 'maybe.'
             });
-        } else if (maximum < 0.8) {
+        } else if (today < 0.8) {
             this.setState({
                 needUmbrella: 'probably.'
             });
@@ -104,9 +121,18 @@ export default class Umbrella extends Component {
         }
     }
 
-    addDay(value) {
-        this.notificationDays.add(value);
-        console.log(this.notificationDays);
+    getMessage(percentage) {
+        if (percentage < 0.05) {
+            return 'nope.';
+        } else if (percentage < 0.25) {
+            return 'probably not.';
+        } else if (percentage < 0.55) {
+            return 'maybe.';
+        } else if (percentage < 0.8) {
+            return 'probably.';
+        } else {
+            return 'most definitely.';
+        }
     }
 
     render() {
