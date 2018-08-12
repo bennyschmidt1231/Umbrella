@@ -267,9 +267,9 @@ export default class Umbrella extends Component {
                     }
                 }
                 source = { require("./assets/umbrella_icon.png") }
-                /><ActivityIndicator/ > < /
-                View > <
-                /View>
+                />
+                    <ActivityIndicator/>
+                    </View> </View>
 
             );
         } else {
