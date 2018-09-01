@@ -2,26 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b552ea-40d0-457d-93c8-141fdb385ef5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/UmbrellaProject.xcodeproj/project.xcworkspace/xcuserdata/bennyschmidt.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/ios/UmbrellaProject.xcodeproj/project.xcworkspace/xcuserdata/bennyschmidt.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphoneos/React.build/Objects-normal/arm64/.libReact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphoneos/React.build/Objects-normal/armv7/.libReact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphoneos/cxxreact.build/Objects-normal/arm64/.libcxxreact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphoneos/cxxreact.build/Objects-normal/armv7/.libcxxreact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphoneos/third-party.build/Objects-normal/arm64/.libthird-party.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphoneos/third-party.build/Objects-normal/armv7/.libthird-party.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphonesimulator/React.build/Objects-normal/i386/.libReact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphonesimulator/React.build/Objects-normal/x86_64/.libReact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphonesimulator/cxxreact.build/Objects-normal/i386/.libcxxreact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphonesimulator/cxxreact.build/Objects-normal/x86_64/.libcxxreact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphonesimulator/third-party.build/Objects-normal/i386/.libthird-party.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Release-iphonesimulator/third-party.build/Objects-normal/x86_64/.libthird-party.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/.UmbrellaProject.app.dSYM.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/.libReact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/.libcxxreact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/.libthird-party.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphoneos/.UmbrellaProject.app.dSYM.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphoneos/.libRCTText.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphoneos/.libReact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphoneos/.libcxxreact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphoneos/.libjschelpers.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphoneos/.libthird-party.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphonesimulator/.libReact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphonesimulator/.libcxxreact.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphonesimulator/.libjschelpers.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Release-iphonesimulator/.libthird-party.a.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1BHJE1NHFF1RZ/.._Builtin_intrinsics-3FD15YQY6KNNR.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1BHJE1NHFF1RZ/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1BHJE1NHFF1RZ/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1BHJE1NHFF1RZ/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1BHJE1NHFF1RZ/.simd-3V2MLXFFX3BH.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1WB0AGD50A7U2/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1WB0AGD50A7U2/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1WB0AGD50A7U2/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1XDNY8XBH159Y/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1XDNY8XBH159Y/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/1XDNY8XBH159Y/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/21085DRSH0TIT/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2CHCVVUP64I1E/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2GKT11UXEA5LB/.._Builtin_intrinsics-3FD15YQY6KNNR.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2GKT11UXEA5LB/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2GKT11UXEA5LB/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2GKT11UXEA5LB/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2GKT11UXEA5LB/.simd-3V2MLXFFX3BH.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2IXK0Q42E8TE4/.._Builtin_intrinsics-3FD15YQY6KNNR.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2IXK0Q42E8TE4/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2IXK0Q42E8TE4/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2IXK0Q42E8TE4/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2IXK0Q42E8TE4/.simd-3V2MLXFFX3BH.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2O6FJ8B9MDONH/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2O6FJ8B9MDONH/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2O6FJ8B9MDONH/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2ZAQIWUHWI4HV/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/.._Builtin_intrinsics-3FD15YQY6KNNR.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/.Accelerate-1IKW7DALYIORV.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3FG37Z01Q2LE4/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3FG37Z01Q2LE4/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3FG37Z01Q2LE4/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3RQYSEC0QDMXC/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3RQYSEC0QDMXC/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3RQYSEC0QDMXC/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3T8NU4T8J6J1L/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3T8NU4T8J6J1L/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3T8NU4T8J6J1L/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/6WNKY0PO49G5/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/6WNKY0PO49G5/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/6WNKY0PO49G5/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/95XU5OL6KPB/.._Builtin_intrinsics-3FD15YQY6KNNR.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/95XU5OL6KPB/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/95XU5OL6KPB/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/95XU5OL6KPB/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/95XU5OL6KPB/.simd-3V2MLXFFX3BH.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/CNBYCCM3SNNA/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/CNBYCCM3SNNA/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/CNBYCCM3SNNA/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/.._Builtin_intrinsics-3FD15YQY6KNNR.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/.Accelerate-1IKW7DALYIORV.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/.Darwin-38I6DLZ5IH61J.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/.Foundation-3DFYNEBRQSXST.pcm.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/.UIKit-1V5UHAPTOD24G.pcm.icloud" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1564760540">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -29,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -91,8 +183,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -100,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,6 +208,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,33 +241,35 @@
       <workItem from="1529749698280" duration="20312000" />
       <workItem from="1530157850322" duration="743000" />
       <workItem from="1530166427916" duration="84000" />
+      <workItem from="1534846149961" duration="56000" />
+      <workItem from="1534846268262" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22382000" />
+    <option name="totallyTimeSpent" value="22445000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24524313" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,169 +279,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="170" column="5" lean-forward="true" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Geolocation.test.js" />
-    <entry file="file://$PROJECT_DIR$/Geolocation.js" />
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="170" column="5" lean-forward="true" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geolocation.test.js" />
     <entry file="file://$PROJECT_DIR$/Geolocation.js" />
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
